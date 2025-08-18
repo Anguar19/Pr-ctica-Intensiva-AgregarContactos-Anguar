@@ -11,7 +11,7 @@ import java.sql.SQLException;
  * @author Anguar Alberto Rodriguez Fonseca
  */
 public class DatabaseConnection {
-    private static final String URL = "LATITUDE-7490-D\\\\SQLEXPRESS;databaseName=AgendaConctactos";
+    private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=AgendaContactos";
     private static final String USER = "sa";
     private static final String PASS = "1234";
     
